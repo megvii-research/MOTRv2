@@ -27,7 +27,7 @@ rmpyc() {
 
 # run backup
 echo "Backing up to log dir: $OUTPUT_DIR"
-rmpyc && cp -r models datasets util main.py engine.py eval_detr.py seqmap submit_dance.py $1 $OUTPUT_DIR
+rmpyc && cp -r models datasets util main.py engine.py submit_dance.py $1 $OUTPUT_DIR
 echo " ...Done"
 
 # tar src to avoid future editing
